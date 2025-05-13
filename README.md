@@ -3,3 +3,8 @@
 
 2. The url of: “amqp://guest:guest@localhost:5672” is the same as in the subscriber program, what does it mean?
     - Artinya Baik publisher maupun subscriber terhubung ke server RabbitMQ yang sama, yaitu sama sama di localhost, dengan user guest, dan port 5672. Dengan begitu publisher dapat mengirimkan message ke broker, dan subscriber bisa menerima pesan dari broker yang sama karena keduanya mengakses broker di alamt yang sama.
+
+<br><br>
+
+### RabbitMQ Screenshot
+![RabbitMQ](RabbitMQ.png)
