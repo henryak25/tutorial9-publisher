@@ -15,3 +15,10 @@
 ### Sending and Processing Event
 ![sendingpublisher](sendingpublisher.png)
 ![sendingsubscriber](sendingsubscriber.png)
+
+<br><br>
+<br><br>
+
+### Monitoring chart based on publisher
+![monitoringchart](monitoringchart.png)
+Explanation: Garis kuning merepresentasikan jumlah message yang dikirim (publish rate) oleh publisher ke message broker. Garis ungu menunjukkan jumlah message yang berhasil diambil (consume rate) oleh subscriber dari queue. Ketika program publisher dijalankan, maka langsung mengirimkan lima event sekaligus ke RabbitMQ. Sementara itu, subscriber membutuhkan waktu untuk menerima dan memproses message" tersebut. Maka, setelah event message dikirim, baru muncul kenaikan pada garis ungu yang menunjukkan proses konsumsi sedang berlangsung.
