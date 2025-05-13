@@ -8,3 +8,10 @@
 
 ### RabbitMQ Screenshot
 ![RabbitMQ](RabbitMQ.png)
+
+<br><br>
+<br><br>
+
+### Sending and Processing Event
+![sendingpublisher](sendingpublisher.png)
+![sendingsubscriber](sendingsubscriber.png)
